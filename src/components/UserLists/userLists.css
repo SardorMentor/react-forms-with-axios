@@ -1,0 +1,78 @@
+.user-lists {
+  margin-top: 30px;
+}
+
+table {
+  display: block;
+  padding: 50px 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead, tbody {
+  display: block;
+}
+
+thead {
+  margin-bottom: 23px;
+}
+
+tbody {
+  padding-bottom: 28px;
+}
+
+tr {
+  display: flex;
+}
+tr > * {
+  overflow: hidden;
+}
+
+.user-lists__number {
+  flex: 48;
+}
+
+.user-lists__group {
+  flex: 160;
+}
+
+.user-lists__email {
+  flex: 280;
+}
+
+.user-lists__company-name {
+  flex: 136;
+}
+
+.user-lists__experience {
+  flex: 155;
+}
+
+.user-lists__delete {
+  flex-basis: 60px;
+  padding: 5px;
+  border: 1px solid #E5E9EB;
+}
+
+.user-lists__delete svg {
+  display: block;
+}
+
+
+.user-lists__delete:hover {
+  cursor: pointer;
+}
+
+th,
+td {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  border: 1px solid #e5e9eb;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
